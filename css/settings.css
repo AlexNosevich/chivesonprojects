@@ -7,4 +7,13 @@
   max-width: 1005px;
   margin: auto;
 }
+
+.section-title {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=settings.css.map */

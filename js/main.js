@@ -15,3 +15,4 @@ const swiper = new Swiper('.swiper-container', {
   
   
 });
+new Splide( '.splide' ).mount();
