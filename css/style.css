@@ -9,7 +9,7 @@
 }
 
 .header {
-  background: #FFD9BE;
+  background: #FFBEBE;
 }
 
 .header__wrapper {
@@ -36,8 +36,8 @@
 }
 
 .hero {
-  background: #FFD9BE;
-  padding-top: 133px;
+  background: #FFBEBE;
+  padding-top: 73px;
   padding-bottom: 0;
 }
 
@@ -131,6 +131,7 @@
 .swiper-slide__container_item_description {
   width: 448px;
   margin-left: 168px;
+  padding-top: 60px;
 }
 
 .swiper-slide__container_item-pic {
