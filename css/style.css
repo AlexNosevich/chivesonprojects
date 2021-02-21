@@ -767,6 +767,12 @@
   #after992 {
     display: none;
   }
+  #important992 {
+    display: none;
+  }
+  .about__wrapper__item {
+    max-width: 360px;
+  }
   .splide__slide-pic {
     width: 340px;
   }
@@ -800,6 +806,21 @@
     height: 269px;
     margin-top: 90px;
     margin-right: 50px;
+  }
+}
+
+@media (max-width: 920px) {
+  #before992 {
+    display: block;
+  }
+  #after992 {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .about__wrapper__item {
+    max-width: 260px;
   }
 }
 

@@ -53,6 +53,13 @@
         display: block
     #after992
         display: none
+    #important992
+        display: none
+    .about
+        &__wrapper
+            &__item
+                max-width: 360px
+
     .splide
         &__slide
             &-pic
@@ -81,6 +88,18 @@
             height: 269px
             margin-top: 90px
             margin-right: 50px
+@media  ( max-width: 920px )
+    #before992
+        display: block
+    #after992
+        display: none
+
+@media  ( max-width: 900px )
+    .about
+        &__wrapper
+            &__item
+                max-width: 260px
+
 @media  ( max-width: 850px )
 
     .hero
