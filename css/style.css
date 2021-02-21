@@ -14,7 +14,6 @@
 
 .header__wrapper {
   padding-top: 45px;
-  max-width: 475px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +35,7 @@
 }
 
 .hero {
-  background: #FFD9BE;
+  background-color: #FFD9BE;
   padding-top: 0;
   padding-bottom: 70px;
 }
@@ -143,15 +142,21 @@
 }
 
 .swiper-button-prev::after {
-  position: absolute;
+  top: 50%;
   left: 50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   color: white;
+  display: none;
 }
 
 .swiper-button-next::after {
-  position: absolute;
-  right: 50px;
+  right: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   color: white;
+  display: none;
 }
 
 .section-title {

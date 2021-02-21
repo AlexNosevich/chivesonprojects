@@ -12,7 +12,9 @@ const swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 
-  
+  autoplay: {
+   delay: 5000,
+ },
   
 });
 new Splide( '.splide' ).mount();
@@ -49,3 +51,15 @@ new Splide( '.splide' ).mount();
       }
     }
   });
+
+$(document).ready(function(){
+    $('#buyN').mouseenter(function() {
+        $(this).css({'background-color' : '#475bf1'});
+        $('#titlePrice').css({'background-color' : '#475bf1'});
+        console.log('3dgfrg');
+    });
+    $('#buyN').mouseleave(function() {
+        $(this).css({'background-color' : '#5b6ceb'});
+        $('#titlePrice').css({'background-color' : '#5b6ceb'});
+    });
+});
