@@ -60,6 +60,7 @@
         border-radius: 300px
 
 .swiper
+    position: relative
     &-container
         overflow: hidden
         width: 1005px
@@ -74,6 +75,18 @@
 
                 &_description
                     width: 448px
+                    padding-left: 15px
 
                     padding-top: 133px
                 &-pic
+                    padding-top: 45px
+                    padding-right: 15px
+    &-button
+        &-prev::after
+            position: absolute
+            left: 50px
+            color: white
+        &-next::after
+            position: absolute
+            right: 50px
+            color: white
