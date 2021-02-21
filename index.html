@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id="but_three"  name = "but_Three">
         <div class="container">
             <div class="header__wrapper">
                 <img src="img/logo.svg" alt="logo" class="header-logo">
@@ -41,7 +41,7 @@
         </div>
     </header>
 
-    <section class="hero" id="titlePrice">
+    <section class="hero" id="but_one"  name = "but_One">
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
@@ -61,7 +61,7 @@
                                     У нас можно заказать дизайн и верстку небольшого сайта или
                                     интернет-магазина
                                 </p>
-                                <a href="#contact" id="buyN" class="hero__button">Связаться со мной</a>
+                                <a href="#contact" onmouseover="over()" onmouseout="out()" id="but_two" name = "but_two" class="hero__button">Связаться со мной</a>
                             </div>
                             <!-- /.swiper-slide__container_item -->
                             <div class="swiper-slide__container_item-pic">
@@ -81,7 +81,7 @@
                                     У нас можно заказать дизайн и верстку небольшого сайта или
                                     интернет-магазина
                                 </p>
-                                <a href="#contact" id="buyN" class="hero__button">Связаться со мной</a>
+                                <a href="#contact" onmouseover="over()" onmouseout="out()" id="but_two" name = "but_two"  class="hero__button">Связаться со мной</a>
                             </div>
                             <!-- /.swiper-slide__container_item -->
                             <div class="swiper-slide__container_item-pic">
@@ -121,14 +121,15 @@
                         
                 </div>
                 <!-- /.about__wrapper__item -->
-                <hr class="vertical">
-                <div class="about__wrapper__item">
+                <hr class="vertical" id="after992" >
+                <div class="about__wrapper__item about__wrapper__item-mtnew">
                     <img src="img/agreement-img.svg" alt="" class="about__wrapper__item_pic">
                     <h3 class="about__wrapper__item-title">Ценник под вас</h3>
                     <p class="about__wrapper__item-text">Если у вас нетиповой проект, сделаю рассчет цены за работу
                          и объясню, как складывается цена.</p>
                 </div>
                 <!-- /.about__wrapper__item -->
+                <hr class="vertical" id="before992">
                 <div class="about__wrapper__item about__wrapper__item-mt64">
                     <img src="img/steps-img.svg" alt="" class="about__wrapper__item_pic">
                     <h3 class="about__wrapper__item-title">Промежуточные итоги</h3>
@@ -136,7 +137,7 @@
                     а не в последний момент перед крайним сроком.</p>
                 </div>
                 <!-- /.about__wrapper__item -->
-                <hr class="vertical" id="vert">
+                <hr class="vertical" id="after992">
                 <div class="about__wrapper__item about__wrapper__item-mt64">
                     <img src="img/storage-img.svg" alt="" class="about__wrapper__item_pic">
                     <h3 class="about__wrapper__item-title">Хостинг и домен</h3>
@@ -144,7 +145,7 @@
                         домен и хостинг на год + SSL сертификат.</p>
                 </div>
                 <!-- /.about__wrapper__item -->
-                <hr class="vertical">
+                <hr class="vertical" id="">
                 <div class="about__wrapper__item about__wrapper__item-mt64">
                     <img src="img/conversation-img.svg" alt="" class="about__wrapper__item_pic">
                     <h3 class="about__wrapper__item-title">Не брошу после сдачи</h3>
@@ -152,7 +153,7 @@
                         запишу видео-инструкции.</p>
                 </div>
                 <!-- /.about__wrapper__item -->
-            </div>
+                <hr class="vertical after" id="important992"> 
             <!-- /.about__wrapper -->
         </div>
         <!-- /.container -->

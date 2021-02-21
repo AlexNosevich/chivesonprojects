@@ -52,14 +52,14 @@ new Splide( '.splide' ).mount();
     }
   });
 
-$(document).ready(function(){
-    $('#buyN').mouseenter(function() {
-        $(this).css({'background-color' : '#475bf1'});
-        $('#titlePrice').css({'background-color' : '#475bf1'});
-        console.log('3dgfrg');
-    });
-    $('#buyN').mouseleave(function() {
-        $(this).css({'background-color' : '#5b6ceb'});
-        $('#titlePrice').css({'background-color' : '#5b6ceb'});
-    });
-});
+function over() {
+let myhov = document.getElementById("but_two").style.transition = ".5s";
+let mybut = document.getElementById("but_one").style.backgroundColor = "#C0CEFF";
+let mysec = document.getElementById("but_three").style.backgroundColor = "#C0CEFF";
+
+
+}
+function out() {
+let mybut = document.getElementById("but_one").style.backgroundColor = "#FFBEBE";
+let mysec = document.getElementById("but_three").style.backgroundColor = "#FFBEBE";
+}
