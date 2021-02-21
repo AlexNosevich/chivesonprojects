@@ -84,6 +84,9 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
+  text-decoration: none;
+  display: block;
+  width: 295px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
