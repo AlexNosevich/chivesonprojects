@@ -845,4 +845,56 @@
     max-width: 630px;
   }
 }
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    max-width: 576px;
+  }
+  .swiper-slide__container {
+    max-width: 576px;
+    margin: auto;
+  }
+  .swiper-slide__container_item_description {
+    padding-left: 0;
+  }
+  .swiper-container {
+    max-width: 576px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .hero_name {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+  .hero_profession {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .hero_text {
+    font-size: 14px;
+  }
+  .hero__button {
+    width: 173px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 18px;
+    color: #FFFFFF;
+  }
+  .hero-avatar {
+    margin-right: 0;
+    margin-top: 50px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
